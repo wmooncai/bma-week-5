@@ -2,7 +2,9 @@
  * @author Wallace Mooncai
  * @since 10/1/2012
  * 
- * BMNA Week 5 Homework
+ * BMA Week 5 Homework
+ * 
+ * Git Test
  *
  */
 public class Assignment {
