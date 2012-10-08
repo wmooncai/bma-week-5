@@ -121,10 +121,10 @@ class Task {
 	public static final int COMPETED_TO_STR = 40;
 	
 	// Fields
-	StringBuffer taskName = new StringBuffer(MAX_NAME_LEN);
-	long startDateTime;
-	long endDateTime;
-	boolean completed;
+	public StringBuffer taskName = new StringBuffer(MAX_NAME_LEN);
+	public long startDateTime;
+	public long endDateTime;
+	public boolean completed;
 	
 	// ************************************ Constructor - no args ************************************
 	/**
