@@ -41,11 +41,13 @@ public class Assignment {
 		
 		StringBuffer myTaskName = new StringBuffer("My Task ");
 		
+		// Instantiate new task objects
 		Task task1 = new Task(myTaskName.append("1"), (System.currentTimeMillis() + 1));
 		Task task2 = new Task(myTaskName.replace((myTaskName.length() - 1)
 				, (myTaskName.length()), "2"), (System.currentTimeMillis() + 2));
 		Task task3 = new Task();
 		
+		// Output new task object contents
 		System.out.println(task1.toString(Task.NAME_TO_STR));
 		System.out.println(task2.toString(Task.NAME_TO_STR, Task.START_DATE_TO_STR));
 		System.out.println(task3);
