@@ -69,7 +69,24 @@ public class Assignment {
 			return values.substring(index, index);
 		} else return null;
 		
-	} // getElement()
+	} // getElement(String, int)
+
+	/**
+	 * Extract a String element from a String array
+	 * 
+	 * @since 0.0
+	 * 
+	 * @param values	String from which to extract a character
+	 * @param index		Index of character to extract
+	 * @return			Return the character at index.  If index is invalid, return null.
+	 */
+	static String getElement(String[] values, int index) {
+		
+		if ((index >= 0) && (index < values.length)) {
+			return values[index];
+		} else return null;
+		
+	} // getElement(String[], int)
 	
 } // CLASS Assignment
 
